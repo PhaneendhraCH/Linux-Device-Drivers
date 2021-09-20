@@ -1,0 +1,33 @@
+atomic64_t etx_global_variable = ATOMIC64_INIT(0);
+
+Following are the possible operations of atomic variables
+
+
+long atomic64_read(atomic64_t *v);
+
+void atomic64_set(atomic64_t *v, int i);
+
+void atomic64_add(int i, atomic64_t *v);
+
+void atomic64_sub(int i, atomic64_t *v);
+
+void atomic64_inc(atomic64_t *v);
+
+void atomic64_dec(atomic64_t *v);
+
+
+int atomic64_sub_and_test(int i, atomic64_t *v);
+
+int atomic64_add_negative(int i, atomic64_t *v);
+
+long atomic64_add_return(int i, atomic64_t *v);
+
+long atomic64_sub_return(int i, atomic64_t *v);
+
+long atomic64_inc_return(int i, atomic64_t *v);
+
+long atomic64_dec_return(int i, atomic64_t *v);
+
+int atomic64_dec_and_test(atomic64_t *v);
+
+int atomic64_inc_and_test(atomic64_t *v);
