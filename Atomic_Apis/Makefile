@@ -1,4 +1,5 @@
-obj-m+= atomic_variable_incandtest.o
+obj-m+= atomic_operations.o
+#obj-m+= atomic_variable_incandtest.o
 #obj-m+= atomic_variable_decandtest.o
 #obj-m+= atomic_variable_add.o
 #obj-m+= atomic_variable_sub.o
