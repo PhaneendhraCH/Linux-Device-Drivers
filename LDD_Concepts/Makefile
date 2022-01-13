@@ -1,4 +1,5 @@
-obj-m+= mutex_kernel.o
+obj-m:= Procfs_1.o
+#obj-m+= mutex_kernel.o
 #obj-m+= threadskernel.o
 #obj-m+= fileoperations.o
 #obj-m+= device_driver.o
