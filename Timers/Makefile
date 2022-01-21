@@ -1,4 +1,5 @@
-obj-m +=timer_jiffie_count.o
+obj-m +=timers_macro.o
+#obj-m +=timer_jiffie_count.o
 #obj-m +=ktimer_test.o
 
 KDIR = /lib/modules/$(shell uname -r)/build
